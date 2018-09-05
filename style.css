@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+    width: 50% !important;
+    margin: 0 auto;
+}
+
+@media (max-width: 768px) {
+    .container {
+        width: 80% !important;
+        margin: 0 auto;
+    } 
+}
+
+.card-header{
+    background-color: rgb(199, 199, 199);
+    padding: 0.5%;
+}
